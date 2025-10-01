@@ -7,7 +7,7 @@ public class Pais {
     private final String capital; 
     private final String region;
     private final String subRegion; 
-    private final Long poblacion;
+    private final Integer poblacion;
     private final List<String> idiomas;
     private final List<String> limites;
     private final Integer area;
@@ -45,7 +45,7 @@ public class Pais {
         return subRegion;
     }
 
-    public Long getPoblacion() {
+    public Integer getPoblacion() {
         return poblacion;
     }
 
